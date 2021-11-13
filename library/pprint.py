@@ -1,0 +1,1 @@
+glk = lambda: __import__('pprint').pprint([i for i in globals().keys() if not i.startswith('__')])  # Function for global key view
